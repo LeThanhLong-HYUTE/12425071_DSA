@@ -1,9 +1,9 @@
 using System;
 using System.Text;
 
-class Program
+class Bai5
 {
-    static void Main(string[] args)
+    public static void Run()
     {
         Console.OutputEncoding = Encoding.UTF8;
         Console.WriteLine("--- BÀI 5: TÌM SỐ FIBONACCI THỨ N ---");
@@ -36,7 +36,5 @@ class Program
 
         Console.WriteLine($"Số Fibonacci thứ {n} là: {fn}");
 
-        Console.WriteLine("\nBấm phím bất kỳ để thoát...");
-        Console.ReadKey();
     }
 }

@@ -1,9 +1,9 @@
 using System;
 using System.Text;
 
-class Program
+class Bai1
 {
-    static void Main(string[] args)
+    public static void Run()
     {
         Console.OutputEncoding = Encoding.UTF8;
         Console.WriteLine("--- BÀI 1: TÌM MAX / MIN TRONG 1000 SỐ NGẪU NHIÊN ---");
@@ -23,8 +23,6 @@ class Program
         Console.WriteLine($"+ Số lớn nhất (Max) trong mảng là: {soLonNhat}");
         Console.WriteLine($"+ Số nhỏ nhất (Min) trong mảng là: {soNhoNhat}");
 
-        Console.WriteLine("nhấn phím bất kỳ để thoát chương trình.. ");
-        Console.ReadKey();
     }
 
     static int[] TaoMangNgauNhien(int soLuong, int minVal, int maxVal)

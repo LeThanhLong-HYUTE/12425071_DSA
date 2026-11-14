@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai6
 {
     static void BubbleSort(double[] arr)
     {
@@ -15,7 +15,7 @@ class Program
                 }
     }
 
-    static void Main()
+    public static void Run()
     {
         double[] arr = { 3.5, 1.2, 9.8, 5.4, 2.1 };
         BubbleSort(arr);

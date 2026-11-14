@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai5
 {
     static int UocLeMax(int n)
     {
@@ -8,7 +8,7 @@ class Program
         return UocLeMax(n / 2);
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap so nguyen duong n: ");
         int n = int.Parse(Console.ReadLine());

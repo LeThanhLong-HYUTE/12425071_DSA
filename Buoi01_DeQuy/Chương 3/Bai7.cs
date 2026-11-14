@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai7
 {
     static int SoChuSo(int n)
     {
@@ -8,7 +8,7 @@ class Program
         return SoChuSo(n / 10) + 1;
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap n: ");
         int n = int.Parse(Console.ReadLine());

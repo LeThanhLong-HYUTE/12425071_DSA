@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai3
 {
     static double TinhS3(int n)
     {
@@ -8,7 +8,7 @@ class Program
         return TinhS3(n - 1) + 1.0 / n;
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap n: ");
         int n = int.Parse(Console.ReadLine());

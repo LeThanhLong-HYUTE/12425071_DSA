@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai6
 {
     static int UCLN(int a, int b)
     {
@@ -8,7 +8,7 @@ class Program
         return UCLN(b, a % b);
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap a: ");
         int a = int.Parse(Console.ReadLine());

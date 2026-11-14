@@ -1,9 +1,9 @@
 using System;
 using System.Text;
 
-class Program
+class Bai2
 {
-    static void Main(string[] args)
+    public static void Run()
     {
         Console.OutputEncoding = Encoding.UTF8;
         Console.WriteLine("--- BÀI 2: BÀI TOÁN FIZZBUZZ ---");
@@ -29,7 +29,5 @@ class Program
         }
         Console.WriteLine();
 
-        Console.WriteLine("\nBấm phím bất kỳ để thoát...");
-        Console.ReadKey();
     }
 }

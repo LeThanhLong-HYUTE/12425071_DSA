@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-class Program
+class Bai1
 {
     static void ThapHaNoi(int n, char nguon, char trungGian, char dich)
     {
@@ -10,7 +10,7 @@ class Program
         ThapHaNoi(n - 1, trungGian, nguon, dich);
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap so luong dia n: ");
         int n = int.Parse(Console.ReadLine());

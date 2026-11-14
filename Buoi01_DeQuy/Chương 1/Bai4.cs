@@ -1,9 +1,9 @@
 using System;
 using System.Text;
 
-class Program
+class Bai4
 {
-    static void Main(string[] args)
+    public static void Run()
     {
         Console.OutputEncoding = Encoding.UTF8;
         Console.WriteLine("--- BÀI 4: IN MẢNG VÀ SẮP XẾP TĂNG DẦN ---");
@@ -19,8 +19,6 @@ class Program
         Console.WriteLine("\nMảng sau khi sắp xếp tăng dần:");
         Console.WriteLine(string.Join(", ", mangSo));
 
-        Console.WriteLine("\nBấm phím bất kỳ để thoát...");
-        Console.ReadKey();
     }
 
     static int[] TaoMangNgauNhien(int soLuong, int minVal, int maxVal)

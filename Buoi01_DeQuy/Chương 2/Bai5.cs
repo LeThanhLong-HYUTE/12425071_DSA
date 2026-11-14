@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai5
 {
     static long FiboLap(int n)
     {
@@ -15,7 +15,7 @@ class Program
         return fn;
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap vi tri n cua so Fibonacci can tim: ");
         int n = int.Parse(Console.ReadLine());

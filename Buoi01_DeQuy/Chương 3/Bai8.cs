@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai8
 {
     static double Can(int i, int n)
     {
@@ -13,7 +13,7 @@ class Program
         return Can(1, n);
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap n: ");
         int n = int.Parse(Console.ReadLine());

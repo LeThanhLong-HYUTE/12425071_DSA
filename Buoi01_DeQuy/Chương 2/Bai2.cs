@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-class Program
+class Bai2
 {
     static int BinarySearchDeQuy(int[] arr, int left, int right, int key)
     {
@@ -12,7 +12,7 @@ class Program
         return BinarySearchDeQuy(arr, mid + 1, right, key);
     }
 
-    static void Main()
+    public static void Run()
     {
         int[] arr = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
         int key = 15;

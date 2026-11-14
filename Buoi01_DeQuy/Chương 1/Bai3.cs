@@ -1,9 +1,9 @@
 using System;
 using System.Text;
 
-class Program
+class Bai3
 {
-    static void Main(string[] args)
+    public static void Run()
     {
         Console.OutputEncoding = Encoding.UTF8;
         Console.WriteLine("--- BÀI 3: ĐẢO NGƯỢC CHUỖI ---");
@@ -23,7 +23,5 @@ class Program
 
         Console.WriteLine($"Chuỗi sau khi đảo ngược: {chuoiDaoNguoc}");
 
-        Console.WriteLine("\nBấm phím bất kỳ để thoát...");
-        Console.ReadKey();
     }
 }

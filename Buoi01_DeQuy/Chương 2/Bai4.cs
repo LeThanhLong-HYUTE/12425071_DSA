@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai4
 {
     static bool IsPerfect(int n)
     {
@@ -17,7 +17,7 @@ class Program
         return sum == n;
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap n de liet ke so hoan hao nho hon n: ");
         int n = int.Parse(Console.ReadLine());

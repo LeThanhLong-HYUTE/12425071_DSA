@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai4
 {
     static double LuyThua(double x, int n)
     {
@@ -14,7 +14,7 @@ class Program
         return LuyThua(x, n);
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap co so x: ");
         double x = double.Parse(Console.ReadLine());

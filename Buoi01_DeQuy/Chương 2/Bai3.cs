@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Bai3
 {
     static bool IsPrime(long n)
     {
@@ -10,7 +10,7 @@ class Program
         return true;
     }
 
-    static void Main()
+    public static void Run()
     {
         Console.Write("Nhap so nguyen can kiem tra: ");
         long n = long.Parse(Console.ReadLine());
