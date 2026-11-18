@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using System;
 
 class Bai5
@@ -23,29 +22,3 @@ class Bai5
         Console.WriteLine($"So Fibonacci thu {n} la: {FiboLap(n)}");
     }
 }
-=======
-using System;
-
-class Bai5
-{
-    static long FiboLap(int n)
-    {
-        if (n <= 2) return 1;
-        long f1 = 1, f2 = 1, fn = 1;
-        for (int i = 3; i <= n; i++)
-        {
-            fn = f1 + f2;
-            f1 = f2;
-            f2 = fn;
-        }
-        return fn;
-    }
-
-    public static void Run()
-    {
-        Console.Write("Nhap vi tri n cua so Fibonacci can tim: ");
-        int n = int.Parse(Console.ReadLine());
-        Console.WriteLine($"So Fibonacci thu {n} la: {FiboLap(n)}");
-    }
-}
->>>>>>> a829b11bf253bf7c8dee5d46e802712b4602654f
